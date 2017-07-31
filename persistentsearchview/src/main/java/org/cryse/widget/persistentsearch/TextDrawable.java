@@ -23,14 +23,13 @@ public class TextDrawable extends Drawable {
         this.mText = text;
 
         mTextSize = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP,
-                24f, resources.getDisplayMetrics());
+                14f, resources.getDisplayMetrics());
 
         this.mPaint = new Paint();
         mPaint.setColor(Color.GRAY);
         mPaint.setTextSize(mTextSize);
         mPaint.setAntiAlias(true);
         mPaint.setFakeBoldText(false);
-        mPaint.setShadowLayer(2f, 0, 0, Color.BLACK);
         mPaint.setStyle(Paint.Style.FILL);
         mPaint.setTextAlign(Paint.Align.LEFT);
 
