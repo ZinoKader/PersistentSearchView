@@ -44,8 +44,8 @@
                 android:layout_marginEnd="16dp"
                 android:gravity="center_vertical"
                 android:singleLine="true"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#212121" />
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#3f4042" />
 
             <EditText
                 android:id="@+id/edittext_search"
