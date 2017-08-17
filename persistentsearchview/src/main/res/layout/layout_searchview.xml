@@ -63,6 +63,7 @@
                 android:background="@null"
                 android:ems="10"
                 android:imeOptions="actionSearch|flagNoExtractUi"
+                android:inputType="textNoSuggestions"
                 android:singleLine="true"
                 android:textColor="#212121"
                 android:visibility="gone">
